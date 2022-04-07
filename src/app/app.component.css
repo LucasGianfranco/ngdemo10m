@@ -1,21 +1,21 @@
-.wrapper{
-    width: 880px;
+.wrapper {
+    width: 800px;
     margin: 0 auto;
     display: block;
 }
 
-.gallery{
+.gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
 }
 
-.gallery{
+.imgs {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 5px;
 }
 
-img{
+img {
     max-width: 100%;
 }
